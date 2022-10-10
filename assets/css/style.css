@@ -1,3 +1,10 @@
 body{
     background-color: #183A4A;
 }
+p{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
