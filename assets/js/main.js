@@ -6,9 +6,6 @@ containerEl = document.querySelector('.container');
 for (let i = 1; i <= 100; i++) {
     //Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”
     let elements = document.createElement('p');
-    let fizz;
-    let buzz;
-    let fizzbuzz;
     if ((i % 3 == 0) && (i % 5 == 0)) { 
         console.log("FizzBuzz");
         elements.innerHTML +='FizzBuzz'
